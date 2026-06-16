@@ -1,0 +1,103 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI, sans-serif;
+}
+
+body{
+background: linear-gradient(135deg,#0f4c81,#2196f3,#64b5f6);
+background-attachment: fixed;
+padding:20px;
+color:white;
+}
+
+header{
+text-align:center;
+margin-bottom:30px;
+}
+
+nav{
+margin-top:15px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:10px;
+padding:10px 15px;
+border-radius:20px;
+transition:0.3s;
+}
+
+nav a:hover{
+background:rgba(255,255,255,0.2);
+}
+
+.glass{
+background:rgba(255,255,255,0.15);
+backdrop-filter: blur(18px);
+-webkit-backdrop-filter: blur(18px);
+border:1px solid rgba(255,255,255,0.3);
+border-radius:25px;
+padding:30px;
+margin:25px auto;
+max-width:1000px;
+box-shadow:
+0 8px 32px rgba(0,0,0,0.2),
+inset 0 1px 1px rgba(255,255,255,0.4);
+}
+
+h1,h2{
+margin-bottom:15px;
+}
+
+p{
+line-height:1.8;
+margin-bottom:15px;
+}
+
+img{
+display:block;
+width:100%;
+max-width:500px;
+margin:20px auto;
+border-radius:20px;
+}
+
+ul{
+padding-left:25px;
+line-height:2;
+}
+
+.question{
+margin:20px 0;
+}
+
+button{
+background:#2196f3;
+color:white;
+border:none;
+padding:14px 30px;
+border-radius:30px;
+cursor:pointer;
+font-size:16px;
+transition:0.3s;
+}
+
+button:hover{
+transform:scale(1.08);
+background:#1976d2;
+}
+
+#result{
+margin-top:20px;
+font-size:24px;
+font-weight:bold;
+}
+
+footer{
+text-align:center;
+padding:30px;
+font-weight:bold;
+}
